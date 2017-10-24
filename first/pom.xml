@@ -37,6 +37,7 @@
             <configuration>
                 <target>
                     <echo>Hello world!</echo>
+                    <echo>building for environment: ${env.environment}</echo>
                 </target>
             </configuration>
         </execution>
